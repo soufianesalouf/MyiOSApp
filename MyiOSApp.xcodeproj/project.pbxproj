@@ -25,6 +25,21 @@
 		726B1FAB248EA7AE0045EF17 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 726B1FAA248EA7AE0045EF17 /* Localizable.strings */; };
 		726B1FAD248EA8400045EF17 /* i18n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FAC248EA8400045EF17 /* i18n.swift */; };
 		726B1FB0248EA9110045EF17 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FAF248EA9110045EF17 /* String+Extension.swift */; };
+		726B1FC6248EBB8C0045EF17 /* RegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FB3248EBB8C0045EF17 /* RegisterService.swift */; };
+		726B1FC7248EBB8C0045EF17 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FB4248EBB8C0045EF17 /* LoginService.swift */; };
+		726B1FC8248EBB8C0045EF17 /* URLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FB6248EBB8C0045EF17 /* URLEncoder.swift */; };
+		726B1FC9248EBB8C0045EF17 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FB7248EBB8C0045EF17 /* APIProtocol.swift */; };
+		726B1FCA248EBB8C0045EF17 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FB8248EBB8C0045EF17 /* NetworkManager.swift */; };
+		726B1FCB248EBB8C0045EF17 /* MyiOSAppAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FB9248EBB8C0045EF17 /* MyiOSAppAPI.swift */; };
+		726B1FD0248EBB8C0045EF17 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FBF248EBB8C0045EF17 /* Result.swift */; };
+		726B1FD1248EBB8C0045EF17 /* HTTPNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FC1248EBB8C0045EF17 /* HTTPNetworkRequest.swift */; };
+		726B1FD2248EBB8C0045EF17 /* HTTPNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FC2248EBB8C0045EF17 /* HTTPNetworkError.swift */; };
+		726B1FD3248EBB8C0045EF17 /* HTTPNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FC3248EBB8C0045EF17 /* HTTPNetworkResponse.swift */; };
+		726B1FD4248EBB8C0045EF17 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FC4248EBB8C0045EF17 /* HTTPMethod.swift */; };
+		726B1FD7248EBD570045EF17 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FD6248EBD570045EF17 /* Loader.swift */; };
+		726B1FDB248EBDCA0045EF17 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 726B1FD9248EBDCA0045EF17 /* LoadingView.xib */; };
+		726B1FDC248EBDCA0045EF17 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FDA248EBDCA0045EF17 /* LoadingView.swift */; };
+		726B1FDF248EBE650045EF17 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FDE248EBE650045EF17 /* Constant.swift */; };
 		729C863D248E8F6C00F797DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C863C248E8F6C00F797DA /* AppDelegate.swift */; };
 		729C863F248E8F6C00F797DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C863E248E8F6C00F797DA /* SceneDelegate.swift */; };
 		729C8646248E8F6E00F797DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729C8645248E8F6E00F797DA /* Assets.xcassets */; };
@@ -50,6 +65,21 @@
 		726B1FAA248EA7AE0045EF17 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		726B1FAC248EA8400045EF17 /* i18n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = i18n.swift; sourceTree = "<group>"; };
 		726B1FAF248EA9110045EF17 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		726B1FB3248EBB8C0045EF17 /* RegisterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
+		726B1FB4248EBB8C0045EF17 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		726B1FB6248EBB8C0045EF17 /* URLEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEncoder.swift; sourceTree = "<group>"; };
+		726B1FB7248EBB8C0045EF17 /* APIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		726B1FB8248EBB8C0045EF17 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		726B1FB9248EBB8C0045EF17 /* MyiOSAppAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyiOSAppAPI.swift; sourceTree = "<group>"; };
+		726B1FBF248EBB8C0045EF17 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		726B1FC1248EBB8C0045EF17 /* HTTPNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPNetworkRequest.swift; sourceTree = "<group>"; };
+		726B1FC2248EBB8C0045EF17 /* HTTPNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPNetworkError.swift; sourceTree = "<group>"; };
+		726B1FC3248EBB8C0045EF17 /* HTTPNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPNetworkResponse.swift; sourceTree = "<group>"; };
+		726B1FC4248EBB8C0045EF17 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		726B1FD6248EBD570045EF17 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		726B1FD9248EBDCA0045EF17 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		726B1FDA248EBDCA0045EF17 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		726B1FDE248EBE650045EF17 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		729C8639248E8F6C00F797DA /* MyiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729C863C248E8F6C00F797DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729C863E248E8F6C00F797DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,9 +102,11 @@
 		726B1F79248E91AA0045EF17 /* Commun */ = {
 			isa = PBXGroup;
 			children = (
+				726B1FDD248EBE530045EF17 /* Constants */,
 				726B1F81248E92FC0045EF17 /* Application delegate */,
 				726B1FA5248E9A320045EF17 /* Base Elements */,
 				726B1FAE248EA9020045EF17 /* Extensions */,
+				726B1FD5248EBD4B0045EF17 /* Loader */,
 				726B1FA9248EA7080045EF17 /* Localization */,
 			);
 			path = Commun;
@@ -101,6 +133,14 @@
 		726B1F7C248E91CF0045EF17 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				726B1FB7248EBB8C0045EF17 /* APIProtocol.swift */,
+				726B1FB9248EBB8C0045EF17 /* MyiOSAppAPI.swift */,
+				726B1FB8248EBB8C0045EF17 /* NetworkManager.swift */,
+				726B1FBF248EBB8C0045EF17 /* Result.swift */,
+				726B1FB5248EBB8C0045EF17 /* Encoding */,
+				726B1FC0248EBB8C0045EF17 /* HTTP */,
+				726B1FBA248EBB8C0045EF17 /* Response */,
+				726B1FB1248EBB8C0045EF17 /* Services */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -125,6 +165,7 @@
 		726B1F7F248E91F30045EF17 /* Shared Views */ = {
 			isa = PBXGroup;
 			children = (
+				726B1FD8248EBDCA0045EF17 /* LoadingView */,
 			);
 			path = "Shared Views";
 			sourceTree = "<group>";
@@ -228,6 +269,66 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		726B1FB1248EBB8C0045EF17 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				726B1FB3248EBB8C0045EF17 /* RegisterService.swift */,
+				726B1FB4248EBB8C0045EF17 /* LoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		726B1FB5248EBB8C0045EF17 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				726B1FB6248EBB8C0045EF17 /* URLEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		726B1FBA248EBB8C0045EF17 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		726B1FC0248EBB8C0045EF17 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				726B1FC1248EBB8C0045EF17 /* HTTPNetworkRequest.swift */,
+				726B1FC2248EBB8C0045EF17 /* HTTPNetworkError.swift */,
+				726B1FC3248EBB8C0045EF17 /* HTTPNetworkResponse.swift */,
+				726B1FC4248EBB8C0045EF17 /* HTTPMethod.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		726B1FD5248EBD4B0045EF17 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				726B1FD6248EBD570045EF17 /* Loader.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		726B1FD8248EBDCA0045EF17 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				726B1FDA248EBDCA0045EF17 /* LoadingView.swift */,
+				726B1FD9248EBDCA0045EF17 /* LoadingView.xib */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		726B1FDD248EBE530045EF17 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				726B1FDE248EBE650045EF17 /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		729C8630248E8F6C00F797DA = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +422,7 @@
 				726B1F9A248E98820045EF17 /* Authentication.storyboard in Resources */,
 				726B1FA0248E99A00045EF17 /* RootViewController.xib in Resources */,
 				729C8649248E8F6E00F797DA /* LaunchScreen.storyboard in Resources */,
+				726B1FDB248EBDCA0045EF17 /* LoadingView.xib in Resources */,
 				726B1FAB248EA7AE0045EF17 /* Localizable.strings in Resources */,
 				729C8646248E8F6E00F797DA /* Assets.xcassets in Resources */,
 			);
@@ -333,22 +435,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726B1FC7248EBB8C0045EF17 /* LoginService.swift in Sources */,
+				726B1FC9248EBB8C0045EF17 /* APIProtocol.swift in Sources */,
 				726B1FB0248EA9110045EF17 /* String+Extension.swift in Sources */,
 				726B1FA2248E99A00045EF17 /* RootBuilder.swift in Sources */,
+				726B1FCA248EBB8C0045EF17 /* NetworkManager.swift in Sources */,
+				726B1FDF248EBE650045EF17 /* Constant.swift in Sources */,
 				726B1F95248E97970045EF17 /* UINib+Loader.swift in Sources */,
+				726B1FD7248EBD570045EF17 /* Loader.swift in Sources */,
 				726B1FA4248E99A00045EF17 /* RootViewModel.swift in Sources */,
 				726B1FA3248E99A00045EF17 /* RootViewController.swift in Sources */,
 				726B1F93248E97970045EF17 /* Transition.swift in Sources */,
+				726B1FD4248EBB8C0045EF17 /* HTTPMethod.swift in Sources */,
+				726B1FC6248EBB8C0045EF17 /* RegisterService.swift in Sources */,
 				726B1FA7248E9A6F0045EF17 /* BaseViewController.swift in Sources */,
 				726B1F90248E97970045EF17 /* Animator.swift in Sources */,
+				726B1FC8248EBB8C0045EF17 /* URLEncoder.swift in Sources */,
 				726B1F94248E97970045EF17 /* PushTransition.swift in Sources */,
 				726B1F96248E97970045EF17 /* UIStoryboard+Loader.swift in Sources */,
+				726B1FD0248EBB8C0045EF17 /* Result.swift in Sources */,
+				726B1FDC248EBDCA0045EF17 /* LoadingView.swift in Sources */,
 				729C863D248E8F6C00F797DA /* AppDelegate.swift in Sources */,
 				726B1FA1248E99A00045EF17 /* RootRouter.swift in Sources */,
 				726B1FAD248EA8400045EF17 /* i18n.swift in Sources */,
 				726B1F91248E97970045EF17 /* ModalTransition.swift in Sources */,
+				726B1FD3248EBB8C0045EF17 /* HTTPNetworkResponse.swift in Sources */,
 				726B1F92248E97970045EF17 /* Router.swift in Sources */,
+				726B1FD2248EBB8C0045EF17 /* HTTPNetworkError.swift in Sources */,
+				726B1FD1248EBB8C0045EF17 /* HTTPNetworkRequest.swift in Sources */,
 				729C863F248E8F6C00F797DA /* SceneDelegate.swift in Sources */,
+				726B1FCB248EBB8C0045EF17 /* MyiOSAppAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,8 +2,8 @@
 //  RootRouter.swift
 //  MyiOSApp
 //
-//  Created by Soufiane Salouf on 20-06-08.
-//  Copyright © 2020 IBM. All rights reserved.
+//  Created by Soufiane SALOUF on 20-06-08.
+//  Copyright © 2020 Soufiane SALOUF. All rights reserved.
 //
 
 import Foundation
