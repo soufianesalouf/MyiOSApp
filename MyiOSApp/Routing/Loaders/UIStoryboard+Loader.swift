@@ -11,7 +11,7 @@ import UIKit
 // MARK: - Storyboards
 
 enum Storyboard : String {
-    case authentification = "Authentification"
+    case authentication = "Authentication"
     case home = "Home"
 }
 

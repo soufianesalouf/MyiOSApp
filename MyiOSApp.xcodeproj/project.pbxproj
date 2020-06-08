@@ -15,7 +15,7 @@
 		726B1F95248E97970045EF17 /* UINib+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1F8E248E97970045EF17 /* UINib+Loader.swift */; };
 		726B1F96248E97970045EF17 /* UIStoryboard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1F8F248E97970045EF17 /* UIStoryboard+Loader.swift */; };
 		726B1F98248E98740045EF17 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726B1F97248E98740045EF17 /* Home.storyboard */; };
-		726B1F9A248E98820045EF17 /* Authentification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726B1F99248E98820045EF17 /* Authentification.storyboard */; };
+		726B1F9A248E98820045EF17 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726B1F99248E98820045EF17 /* Authentication.storyboard */; };
 		726B1FA0248E99A00045EF17 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 726B1F9B248E99A00045EF17 /* RootViewController.xib */; };
 		726B1FA1248E99A00045EF17 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1F9C248E99A00045EF17 /* RootRouter.swift */; };
 		726B1FA2248E99A00045EF17 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1F9D248E99A00045EF17 /* RootBuilder.swift */; };
@@ -40,7 +40,7 @@
 		726B1F8E248E97970045EF17 /* UINib+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+Loader.swift"; sourceTree = "<group>"; };
 		726B1F8F248E97970045EF17 /* UIStoryboard+Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Loader.swift"; sourceTree = "<group>"; };
 		726B1F97248E98740045EF17 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		726B1F99248E98820045EF17 /* Authentification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentification.storyboard; sourceTree = "<group>"; };
+		726B1F99248E98820045EF17 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
 		726B1F9B248E99A00045EF17 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		726B1F9C248E99A00045EF17 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		726B1F9D248E99A00045EF17 /* RootBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		726B1F82248E935B0045EF17 /* Authentification */ = {
 			isa = PBXGroup;
 			children = (
-				726B1F99248E98820045EF17 /* Authentification.storyboard */,
+				726B1F99248E98820045EF17 /* Authentication.storyboard */,
 			);
 			path = Authentification;
 			sourceTree = "<group>";
@@ -318,7 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				726B1F98248E98740045EF17 /* Home.storyboard in Resources */,
-				726B1F9A248E98820045EF17 /* Authentification.storyboard in Resources */,
+				726B1F9A248E98820045EF17 /* Authentication.storyboard in Resources */,
 				726B1FA0248E99A00045EF17 /* RootViewController.xib in Resources */,
 				729C8649248E8F6E00F797DA /* LaunchScreen.storyboard in Resources */,
 				726B1FAB248EA7AE0045EF17 /* Localizable.strings in Resources */,
