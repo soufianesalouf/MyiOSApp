@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BaseViewController.swift
 //  MyiOSApp
 //
 //  Created by Soufiane Salouf on 6/8/20.
@@ -8,10 +8,6 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+class BaseViewController: UIViewController {
+    
 }
-
