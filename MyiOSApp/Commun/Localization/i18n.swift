@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Localizable {
+struct i18n {
     
     // MARK: - Private Init
     
@@ -17,4 +17,11 @@ struct Localizable {
     // MARK: - Commun
     
     static var appName: String { return "appName".localized }
+    
+    // MARK: - TextFields Placeholders
+    
+    static var placeholderFirstName: String { return "placeholder.firstName".localized }
+    static var placeholderLastName: String { return "placeholder.lastName".localized }
+    static var placeholderEmail: String { return "placeholder.email".localized }
+    static var placeholderPassword: String { return "placeholder.password".localized }
 }

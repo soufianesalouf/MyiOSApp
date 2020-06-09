@@ -22,7 +22,7 @@ class RootViewModel {
     
     // MARK: Routes
     
-    func handlingFlows() {
-        // TODO: handle flows here
+    func onpenRegister() {
+        router?.openRegister()
     }
 }

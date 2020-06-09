@@ -1,9 +1,9 @@
 //
 //  LoadingView.swift
-//  Cidel
+//  MyiOSApp
 //
 //  Created by Soufiane Salouf on 9/23/19.
-//  Copyright © 2019 Soufiane SALOUF. All rights reserved.
+//  Copyright © 2020 Soufiane SALOUF. All rights reserved.
 //
 
 import UIKit
@@ -52,7 +52,7 @@ class LoadingView: UIView {
     func startAnimation(type: AnimationType = .progress, withTitle title: String = "") {
 
         // set a timer to automatically dismiss the loader
-        loaderStopAnimationTimer = Timer.scheduledTimer(timeInterval: Constant.TIMEOUT_SECONDS, target: self, selector: #selector(stopAnimation), userInfo: nil, repeats: false)
+        loaderStopAnimationTimer = Timer.scheduledTimer(timeInterval: Constants.TIMEOUT_SECONDS, target: self, selector: #selector(stopAnimation), userInfo: nil, repeats: false)
 
         // Create Loader Animation
 

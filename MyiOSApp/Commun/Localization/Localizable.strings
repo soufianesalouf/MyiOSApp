@@ -7,5 +7,22 @@
 */
 
 // MARK: - COMMON
+// MARK: -
 
 "appName" = "MyiOSApp";
+
+// MARK: TextFields Placeholders
+
+"placeholder.firstName" = "Enter your first name";
+"placeholder.lastName" = "Enter your  last name";
+"placeholder.email" = "Enter your email address";
+"placeholder.password" = "Enter your password";
+
+
+// MARK: - Authentication
+// MARK: -
+
+// MARK: Registration
+
+"authentication.title" = "Registration";
+"authentication.message" = "Fill All the information below to create a new account";

@@ -6,7 +6,9 @@
 //  Copyright © 2020 Soufiane Salouf. All rights reserved.
 //
 
-struct Constant {
+import Foundation
+
+struct Constants {
     
     // MARK: - Networking config
     static let BASE_URL = "http://127.0.0.1:8000/"

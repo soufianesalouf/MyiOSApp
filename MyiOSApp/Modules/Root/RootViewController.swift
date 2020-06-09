@@ -10,6 +10,11 @@ import UIKit
 
 class RootViewController: BaseViewController {
     
+    // MARK: - Views
+    
+    @IBOutlet weak var loginButton: CButton!
+    @IBOutlet weak var registerButton: CButton!
+    
     // MARK: - Properties
     
     private var router: RootRouter.Routes?
@@ -26,19 +31,32 @@ class RootViewController: BaseViewController {
         return viewController
     }
     
+    // MARK: - Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.isHidden = true
+        setupUI()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        // Open Handling Flows
-        self.perform(#selector(handlingFlows), with: nil, afterDelay: 0.5)
     }
     
-    @objc func handlingFlows() {
-        viewModel.handlingFlows()
+    // MARK: - Actions
+    
+    @IBAction func onLogin(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onRegister(_ sender: Any) {
+        viewModel.onpenRegister()
+    }
+    
+    // MARK: - Actions
+    
+    func setupUI() {
+        loginButton.style = .primary
+        registerButton.style = .primary
     }
 }

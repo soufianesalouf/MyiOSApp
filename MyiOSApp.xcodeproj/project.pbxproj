@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723824E6248FAA5600D197D5 /* CButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723824E5248FAA5600D197D5 /* CButton.swift */; };
+		723824EE248FAE5300D197D5 /* CTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723824E8248FAE5300D197D5 /* CTextField.swift */; };
+		723824EF248FAE5300D197D5 /* CTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723824E9248FAE5300D197D5 /* CTextField.xib */; };
+		723824F4248FAEBE00D197D5 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723824F3248FAEBE00D197D5 /* RoundedView.swift */; };
+		723824F6248FB16B00D197D5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723824F5248FB16B00D197D5 /* UIView+Extension.swift */; };
+		723824F8248FC5F400D197D5 /* i18n+Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723824F7248FC5F400D197D5 /* i18n+Authentication.swift */; };
 		726B1F90248E97970045EF17 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1F88248E97970045EF17 /* Animator.swift */; };
 		726B1F91248E97970045EF17 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1F89248E97970045EF17 /* ModalTransition.swift */; };
 		726B1F92248E97970045EF17 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1F8A248E97970045EF17 /* Router.swift */; };
@@ -39,7 +45,15 @@
 		726B1FD7248EBD570045EF17 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FD6248EBD570045EF17 /* Loader.swift */; };
 		726B1FDB248EBDCA0045EF17 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 726B1FD9248EBDCA0045EF17 /* LoadingView.xib */; };
 		726B1FDC248EBDCA0045EF17 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FDA248EBDCA0045EF17 /* LoadingView.swift */; };
-		726B1FDF248EBE650045EF17 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FDE248EBE650045EF17 /* Constant.swift */; };
+		726B1FDF248EBE650045EF17 /* Constants+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FDE248EBE650045EF17 /* Constants+Networking.swift */; };
+		726B1FE2248EC7E30045EF17 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FE1248EC7E30045EF17 /* RegisterViewController.swift */; };
+		726B1FE4248EC7F90045EF17 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FE3248EC7F90045EF17 /* RegisterViewModel.swift */; };
+		726B1FE6248EC80A0045EF17 /* RegisterRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FE5248EC80A0045EF17 /* RegisterRoute.swift */; };
+		726B1FE8248EC8160045EF17 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FE7248EC8160045EF17 /* RegisterRouter.swift */; };
+		726B1FEB248EC9C40045EF17 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FEA248EC9C40045EF17 /* Box.swift */; };
+		726B1FED248ECAEF0045EF17 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FEC248ECAEF0045EF17 /* BaseNavigationController.swift */; };
+		726B1FF0248ECF200045EF17 /* ValidationUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FEF248ECF200045EF17 /* ValidationUtilities.swift */; };
+		726B1FF2248ECF810045EF17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B1FF1248ECF810045EF17 /* Constants.swift */; };
 		729C863D248E8F6C00F797DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C863C248E8F6C00F797DA /* AppDelegate.swift */; };
 		729C863F248E8F6C00F797DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C863E248E8F6C00F797DA /* SceneDelegate.swift */; };
 		729C8646248E8F6E00F797DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729C8645248E8F6E00F797DA /* Assets.xcassets */; };
@@ -47,6 +61,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		723824E5248FAA5600D197D5 /* CButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CButton.swift; sourceTree = "<group>"; };
+		723824E8248FAE5300D197D5 /* CTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTextField.swift; sourceTree = "<group>"; };
+		723824E9248FAE5300D197D5 /* CTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTextField.xib; sourceTree = "<group>"; };
+		723824F3248FAEBE00D197D5 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		723824F5248FB16B00D197D5 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		723824F7248FC5F400D197D5 /* i18n+Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "i18n+Authentication.swift"; sourceTree = "<group>"; };
 		726B1F88248E97970045EF17 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		726B1F89248E97970045EF17 /* ModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
 		726B1F8A248E97970045EF17 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -79,7 +99,15 @@
 		726B1FD6248EBD570045EF17 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		726B1FD9248EBDCA0045EF17 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		726B1FDA248EBDCA0045EF17 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		726B1FDE248EBE650045EF17 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		726B1FDE248EBE650045EF17 /* Constants+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Networking.swift"; sourceTree = "<group>"; };
+		726B1FE1248EC7E30045EF17 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		726B1FE3248EC7F90045EF17 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		726B1FE5248EC80A0045EF17 /* RegisterRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRoute.swift; sourceTree = "<group>"; };
+		726B1FE7248EC8160045EF17 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		726B1FEA248EC9C40045EF17 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		726B1FEC248ECAEF0045EF17 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		726B1FEF248ECF200045EF17 /* ValidationUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtilities.swift; sourceTree = "<group>"; };
+		726B1FF1248ECF810045EF17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		729C8639248E8F6C00F797DA /* MyiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729C863C248E8F6C00F797DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729C863E248E8F6C00F797DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,15 +127,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723824E7248FAE5300D197D5 /* CDTextField */ = {
+			isa = PBXGroup;
+			children = (
+				723824E8248FAE5300D197D5 /* CTextField.swift */,
+				723824E9248FAE5300D197D5 /* CTextField.xib */,
+			);
+			path = CDTextField;
+			sourceTree = "<group>";
+		};
 		726B1F79248E91AA0045EF17 /* Commun */ = {
 			isa = PBXGroup;
 			children = (
-				726B1FDD248EBE530045EF17 /* Constants */,
+				726B1FEA248EC9C40045EF17 /* Box.swift */,
 				726B1F81248E92FC0045EF17 /* Application delegate */,
 				726B1FA5248E9A320045EF17 /* Base Elements */,
+				726B1FDD248EBE530045EF17 /* Constants */,
 				726B1FAE248EA9020045EF17 /* Extensions */,
 				726B1FD5248EBD4B0045EF17 /* Loader */,
 				726B1FA9248EA7080045EF17 /* Localization */,
+				726B1FEE248ECF010045EF17 /* Utilities */,
 			);
 			path = Commun;
 			sourceTree = "<group>";
@@ -191,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				726B1F99248E98820045EF17 /* Authentication.storyboard */,
+				726B1FE0248EC7C60045EF17 /* Register */,
 			);
 			path = Authentification;
 			sourceTree = "<group>";
@@ -247,7 +287,11 @@
 		726B1FA5248E9A320045EF17 /* Base Elements */ = {
 			isa = PBXGroup;
 			children = (
+				726B1FEC248ECAEF0045EF17 /* BaseNavigationController.swift */,
 				726B1FA6248E9A6F0045EF17 /* BaseViewController.swift */,
+				723824E5248FAA5600D197D5 /* CButton.swift */,
+				723824F3248FAEBE00D197D5 /* RoundedView.swift */,
+				723824E7248FAE5300D197D5 /* CDTextField */,
 			);
 			path = "Base Elements";
 			sourceTree = "<group>";
@@ -257,6 +301,7 @@
 			children = (
 				726B1FAA248EA7AE0045EF17 /* Localizable.strings */,
 				726B1FAC248EA8400045EF17 /* i18n.swift */,
+				723824F7248FC5F400D197D5 /* i18n+Authentication.swift */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -265,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				726B1FAF248EA9110045EF17 /* String+Extension.swift */,
+				723824F5248FB16B00D197D5 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -324,9 +370,29 @@
 		726B1FDD248EBE530045EF17 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				726B1FDE248EBE650045EF17 /* Constant.swift */,
+				726B1FF1248ECF810045EF17 /* Constants.swift */,
+				726B1FDE248EBE650045EF17 /* Constants+Networking.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		726B1FE0248EC7C60045EF17 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				726B1FE5248EC80A0045EF17 /* RegisterRoute.swift */,
+				726B1FE7248EC8160045EF17 /* RegisterRouter.swift */,
+				726B1FE1248EC7E30045EF17 /* RegisterViewController.swift */,
+				726B1FE3248EC7F90045EF17 /* RegisterViewModel.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		726B1FEE248ECF010045EF17 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				726B1FEF248ECF200045EF17 /* ValidationUtilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		729C8630248E8F6C00F797DA = {
@@ -418,6 +484,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723824EF248FAE5300D197D5 /* CTextField.xib in Resources */,
 				726B1F98248E98740045EF17 /* Home.storyboard in Resources */,
 				726B1F9A248E98820045EF17 /* Authentication.storyboard in Resources */,
 				726B1FA0248E99A00045EF17 /* RootViewController.xib in Resources */,
@@ -436,11 +503,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				726B1FC7248EBB8C0045EF17 /* LoginService.swift in Sources */,
+				726B1FF2248ECF810045EF17 /* Constants.swift in Sources */,
 				726B1FC9248EBB8C0045EF17 /* APIProtocol.swift in Sources */,
 				726B1FB0248EA9110045EF17 /* String+Extension.swift in Sources */,
+				723824F4248FAEBE00D197D5 /* RoundedView.swift in Sources */,
+				726B1FE4248EC7F90045EF17 /* RegisterViewModel.swift in Sources */,
 				726B1FA2248E99A00045EF17 /* RootBuilder.swift in Sources */,
 				726B1FCA248EBB8C0045EF17 /* NetworkManager.swift in Sources */,
-				726B1FDF248EBE650045EF17 /* Constant.swift in Sources */,
+				726B1FDF248EBE650045EF17 /* Constants+Networking.swift in Sources */,
 				726B1F95248E97970045EF17 /* UINib+Loader.swift in Sources */,
 				726B1FD7248EBD570045EF17 /* Loader.swift in Sources */,
 				726B1FA4248E99A00045EF17 /* RootViewModel.swift in Sources */,
@@ -453,17 +523,27 @@
 				726B1FC8248EBB8C0045EF17 /* URLEncoder.swift in Sources */,
 				726B1F94248E97970045EF17 /* PushTransition.swift in Sources */,
 				726B1F96248E97970045EF17 /* UIStoryboard+Loader.swift in Sources */,
+				723824EE248FAE5300D197D5 /* CTextField.swift in Sources */,
 				726B1FD0248EBB8C0045EF17 /* Result.swift in Sources */,
 				726B1FDC248EBDCA0045EF17 /* LoadingView.swift in Sources */,
 				729C863D248E8F6C00F797DA /* AppDelegate.swift in Sources */,
+				726B1FE2248EC7E30045EF17 /* RegisterViewController.swift in Sources */,
 				726B1FA1248E99A00045EF17 /* RootRouter.swift in Sources */,
 				726B1FAD248EA8400045EF17 /* i18n.swift in Sources */,
 				726B1F91248E97970045EF17 /* ModalTransition.swift in Sources */,
 				726B1FD3248EBB8C0045EF17 /* HTTPNetworkResponse.swift in Sources */,
 				726B1F92248E97970045EF17 /* Router.swift in Sources */,
 				726B1FD2248EBB8C0045EF17 /* HTTPNetworkError.swift in Sources */,
+				723824F8248FC5F400D197D5 /* i18n+Authentication.swift in Sources */,
+				726B1FF0248ECF200045EF17 /* ValidationUtilities.swift in Sources */,
+				726B1FEB248EC9C40045EF17 /* Box.swift in Sources */,
 				726B1FD1248EBB8C0045EF17 /* HTTPNetworkRequest.swift in Sources */,
 				729C863F248E8F6C00F797DA /* SceneDelegate.swift in Sources */,
+				723824F6248FB16B00D197D5 /* UIView+Extension.swift in Sources */,
+				726B1FED248ECAEF0045EF17 /* BaseNavigationController.swift in Sources */,
+				723824E6248FAA5600D197D5 /* CButton.swift in Sources */,
+				726B1FE8248EC8160045EF17 /* RegisterRouter.swift in Sources */,
+				726B1FE6248EC80A0045EF17 /* RegisterRoute.swift in Sources */,
 				726B1FCB248EBB8C0045EF17 /* MyiOSAppAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

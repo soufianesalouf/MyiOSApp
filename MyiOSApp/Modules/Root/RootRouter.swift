@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class RootRouter: Router<RootViewController> {
+final class RootRouter: Router<RootViewController>, RootRouter.Routes {
     
-    typealias Routes = Closable
+    typealias Routes = RegisterRoute
 }

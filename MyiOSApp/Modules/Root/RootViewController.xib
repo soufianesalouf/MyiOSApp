@@ -9,6 +9,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController" customModule="MyiOSApp" customModuleProvider="target">
             <connections>
+                <outlet property="loginButton" destination="DY1-VV-BZH" id="BOn-Uj-dUU"/>
+                <outlet property="registerButton" destination="wQa-gl-7Yg" id="3zS-JH-FTj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,7 +18,57 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Started" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDG-UJ-8EG">
+                    <rect key="frame" x="147" y="204" width="120.5" height="26.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="T0E-NA-ZcR">
+                    <rect key="frame" x="25" y="372" width="364" height="152.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DY1-VV-BZH" customClass="CButton" customModule="MyiOSApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="364" height="55"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="h7O-9D-LTa"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="19"/>
+                            <state key="normal" title="Login"/>
+                            <connections>
+                                <action selector="onLogin:" destination="-1" eventType="touchUpInside" id="hvf-Sg-zHV"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L77-gc-CC3">
+                            <rect key="frame" x="0.0" y="63" width="364" height="26.5"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQa-gl-7Yg" customClass="CButton" customModule="MyiOSApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="97.5" width="364" height="55"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="19"/>
+                            <state key="normal" title="Register"/>
+                            <connections>
+                                <action selector="onRegister:" destination="-1" eventType="touchUpInside" id="Av8-sc-8VQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="wQa-gl-7Yg" firstAttribute="height" secondItem="DY1-VV-BZH" secondAttribute="height" id="e1k-jp-fq5"/>
+                    </constraints>
+                </stackView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="T0E-NA-ZcR" secondAttribute="trailing" constant="25" id="6u0-LE-Dmj"/>
+                <constraint firstItem="vDG-UJ-8EG" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="160" id="cnX-gR-tbh"/>
+                <constraint firstItem="vDG-UJ-8EG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dmi-dc-QhN"/>
+                <constraint firstItem="T0E-NA-ZcR" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kwj-vo-vb1"/>
+                <constraint firstItem="T0E-NA-ZcR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="oWY-wJ-6JY"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="136.23188405797103" y="101.11607142857143"/>
         </view>

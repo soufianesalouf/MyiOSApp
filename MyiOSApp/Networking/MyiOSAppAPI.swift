@@ -16,7 +16,7 @@ enum MyiOSAppAPI: APIProtocol {
 extension MyiOSAppAPI {
     
     var baseURL: URL {
-        return URL(string: Constant.CONNECTION)!
+        return URL(string: Constants.CONNECTION)!
     }
     
     var path: String {
